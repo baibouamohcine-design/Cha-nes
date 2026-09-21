@@ -1,4 +1,6 @@
-const chaîne = "amazing"
+const chaîne = "amazing";
+let x = "";
 for( let i = chaîne.length-1 ; i >= 0 ;i-- ){
-    console.log(chaîne[i])
+    x +=  chaîne[i]
 }
+console.log(x)
